@@ -1,5 +1,27 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q2-container {
+  width: 900px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #eff3f4;
+}
 
+.image1 {
+  float: left;
+  padding: 0 20px 10px 0;
+}
+
+.image2 {
+  float: right;
+  padding: 0 0 10px 20px;
+}
+
+.q2-text {
+  /* word-breakプロパティで文の改行の仕方について指定する。言語に関係なく表示範囲に合わせて改行される。 */
+  word-break: break-all;
+  font-size: 18px;
+  line-height: 22px;
+}
 /* 回答はここに書いてね */
