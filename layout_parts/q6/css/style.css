@@ -2,4 +2,32 @@
 
 /* 回答はここに書いてね */
 
+/* ------- Q6-1 ---------------------------------------- */
+.box__text {
+  width: 90px;
+  padding: 10px 0;
+  background-color: #e6f2ff;
+}
+
+/* text-alignはinline要素に */
+.box__align {
+  text-align: center;
+}
+/* <p>タグはblock要素のためinline化する */
+.box__align p {
+  display: inline-block;
+}
+
+/* margin 0 autoはblock要素に */
+.box__margin{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* inline要素・・・　aタグやimgタグ */
+/* block要素・・・ pタグやdivタグ */
+
+/* ------- Q6-2 ---------------------------------------- */
+
 /* 回答はここに書いてね */
