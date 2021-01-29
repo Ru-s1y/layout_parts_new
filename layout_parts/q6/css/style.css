@@ -29,5 +29,75 @@
 /* block要素・・・ pタグやdivタグ */
 
 /* ------- Q6-2 ---------------------------------------- */
+.box__table__container {
+  display: table;
+}
+
+.box__table {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* 幅と高さを%で指定するとうまく動作しない。td(table-cell)のサイズを決める際、そのテーブル関連の親要素に依存するため。 */
+/* table-cellにサイズを指定しなかった場合、親要素がtableならそのサイズいっぱいに広がる。 */
+
+
+.box__table__target {
+  /* text-alignを使うのでinline化 */
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* html table > tr > td */
+/* css table > table-row > table-cell */
+
+.box__flex__container {
+  display: flex;
+  /* 水平方向の中央寄せ */
+  justify-content: center;
+  /* 垂直方向の中央寄せ */
+  align-items: center;
+}
+
+.box__flex__box {
+  padding: 10px;
+  background-color: #fff;
+}
+
+.box__position__container{
+  position: relative;
+  /* 相対位置への配置。positionプロパティでstaticを指定した場合に表示される位置が基準位置となる。 */
+  /* static以外の値でこの要素が子要素の基準位置となる。 */
+}
+
+.box__position__text{
+  /* 絶対位置への配置。 */
+  /* 親要素にposition:static以外の値が指定されていると親要素の左上が基準位置となる。 */
+  /* 親要素がposition:staticだとウィンドウ全体の左上が基準位置となる。 */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.box__position__flexible {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /* marginではなく％で指定 */
+  /* -webkit-はベンダープレフィックス（接頭辞）と呼ばれるブラウザ独自の拡張機能を示す識別子 */
+  /* ブラウザごとの識別子
+    -moz- : Firefox
+    -webkit- : Chrome, Safari
+    -o- : Opera
+    -ms- : IE 
+  */
+}
 
 /* 回答はここに書いてね */
