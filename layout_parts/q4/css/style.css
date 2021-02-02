@@ -4,7 +4,7 @@
 
 .container {
   margin: 0 auto;
-  padding: 10px;
+  padding: 20px;
   background-color: #eff3f4;
 }
 
@@ -12,9 +12,14 @@
   width: 100%;
   display: table;
   text-align: center;
-  padding: 10px;
+  margin-top: 20px;
+  /* padding: 10px; */
   /* 親要素からはみ出さないように指定。marginやpaddingを要素の幅と高さに含める. */
   box-sizing: border-box;
+}
+
+.table:first-child {
+  margin-top: 0;
 }
 
 .block {

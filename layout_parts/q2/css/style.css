@@ -8,14 +8,18 @@
   background-color: #eff3f4;
 }
 
-.image1 {
-  float: left;
-  padding: 0 20px 10px 0;
+.q2-content img {
+  margin-bottom: 10px;
 }
 
-.image2 {
+.image-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.image-right {
   float: right;
-  padding: 0 0 10px 20px;
+  margin-left: 20px;
 }
 
 .q2-text {
