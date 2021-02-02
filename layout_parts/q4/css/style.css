@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+
 .container {
   margin: 0 auto;
   padding: 10px;
@@ -12,7 +13,7 @@
   display: table;
   text-align: center;
   padding: 10px;
-  /* 親要素からはみ出さないように指定 */
+  /* 親要素からはみ出さないように指定。marginやpaddingを要素の幅と高さに含める. */
   box-sizing: border-box;
 }
 

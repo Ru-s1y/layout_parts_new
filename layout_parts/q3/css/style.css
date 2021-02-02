@@ -33,10 +33,12 @@ td {
   line-height: 26px;
 }
 
+/* 奇数行の背景色を指定 */
 .table-body:nth-child(2n+1) {
   background-color: #ecf1f2;
 }
 
+/* 兄弟要素の最後を指定 */
 .table tr:last-child {
   border-top: dashed #000 2px;
 }

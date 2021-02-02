@@ -6,6 +6,7 @@
   display: block;
   content: "";
   /* clearプロパティでfloatプロパティで浮かせた要素への回り込みを解除する */
+  /* floatプロパティの親要素で指定する */
   clear: both;
 }
 
@@ -20,7 +21,11 @@
   background-color: #3274ae;
   float: left;
   padding: 20px;
-  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.q1_box:first-child {
+  margin-left: 0;
 }
 
 .q1_text {

@@ -23,6 +23,7 @@
 }
 
 .float-block {
+  /* 絶対配置、 スクロールしても位置固定 */
   position: fixed;
 }
 
@@ -74,7 +75,7 @@
   left: 120px;
   z-index: 8;
 }
-/* box8を描画した後、box1と同じ色のボックスを上に描画 */
+/* box8を描画した後、box1と同じ色のボックスを重複部分上に描画 */
 .box8:after {
   position: absolute;
   width: 20px;
