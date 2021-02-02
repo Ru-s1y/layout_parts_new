@@ -2,12 +2,25 @@
 
 /* 回答はここに書いてね */
 
+.t-center {
+  text-align: center;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
 /* ------- Q6-1 ---------------------------------------- */
 .box__text {
   width: 90px;
   padding: 10px 0;
   background-color: #e6f2ff;
 }
+
 
 /* text-alignはinline要素に */
 .box__align {

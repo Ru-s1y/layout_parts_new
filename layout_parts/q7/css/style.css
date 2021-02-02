@@ -94,7 +94,7 @@
   /* ネガティブマージン */
   margin-left: -300px;
   padding-left: 350px;
-  /* border-boxでパディングとボーダーを幅と高さに含める */
+  /* border-boxでpaddingとborderを幅と高さに含める */
   box-sizing: border-box;
 }
 
