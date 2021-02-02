@@ -2,4 +2,103 @@
 
 /* 回答はここに書いてね */
 
+/* Q7-1 ---------------------- */
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.float-content {
+  width: 225px;
+  float: left;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-left: 50px;
+}
+
+.float-content:first-of-type {
+  margin-left: 0;
+}
+
+/* Q7-2 ---------------------- */
+.table-container {
+  display: table;
+}
+
+.table-box {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 50px;
+}
+
+.table-box:first-of-type {
+  padding-left: 0;
+}
+
+.table-text {
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Q7-3 ---------------------- */
+.inline-container .inline-content {
+  /* 謎の幅があるため消す */
+  font-size: 0;
+}
+
+.inline-box {
+  display: inline-block;
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  margin-left: 50px;
+}
+
+.inline-box:first-of-type {
+  margin-left: 0;
+} 
+
+/* Q7-4 ---------------------- */
+.flex-container {
+  display: flex;
+  /* 余白を均等に */
+  justify-content: space-around;
+  /* 下揃え */
+  align-items: flex-end;
+}
+
+.flex-item {
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Q7-5 ---------------------- */
+.margin-container .margin-content {
+  font-size: 0;
+  /* letter-spacing: -.4em; */
+}
+
+.margin-fixed {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}
+
+.margin-variable {
+  display: inline-block;
+  width: 100%;
+  /* ネガティブマージン */
+  margin-left: -300px;
+  padding-left: 350px;
+  /* border-boxでパディングとボーダーを幅と高さに含める */
+  box-sizing: border-box;
+}
+
+.margin-text {
+  font-size: 16px;
+}
 /* 回答はここに書いてね */
