@@ -3,7 +3,6 @@
 /* 回答はここに書いてね */
 
 .container {
-  margin: 0 auto;
   padding: 20px;
   background-color: #eff3f4;
 }
@@ -13,9 +12,7 @@
   display: table;
   text-align: center;
   margin-top: 20px;
-  /* padding: 10px; */
   /* 親要素からはみ出さないように指定。marginやpaddingを要素の幅と高さに含める. */
-  box-sizing: border-box;
 }
 
 .table:first-child {
@@ -27,30 +24,33 @@
   display: table-cell;
 }
 
-.box1 {
+.top-orange {
   background-color: #fdc8b8;
   width: 100px;
 }
 
-.box2 {
+.top-purple {
   background-color: #e0abd9;
 }
 
-.box3 {
+.top-blue {
   background-color: #b6d8ed;
   width: 100px;
 }
 
-.box4 {
+.bottom-yellow {
   background-color: #e5d32e; 
 }
 
-.box5 {
+.bottom-red {
   background-color: #ec8f9a;
 }
 
-.box6 {
+.bottom-green {
   background-color: #8fdcad;
   width: 500px;
 }
+
+/* classの連番はよくない */
+
 /* 回答はここに書いてね */

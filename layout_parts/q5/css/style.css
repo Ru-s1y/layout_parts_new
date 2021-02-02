@@ -9,22 +9,14 @@
   position: relative;
 }
 
-.container div{
+.block {
   font-weight: bold;
   font-size: 30px;
   line-height: 100px;
   text-align: center;
   width: 100px;
   height: 100px;
-}
-
-.block {
   position: absolute;
-}
-
-.float-block {
-  /* 絶対配置、 スクロールしても位置固定 */
-  position: fixed;
 }
 
 .box1 {
@@ -90,5 +82,12 @@
   top: 10px;
   left: 10px;
   z-index: 10;
+  position: fixed;
 }
+
+/* 
+  positionプロパティ
+  fixed > absolute
+*/
+
 /* 回答はここに書いてね */

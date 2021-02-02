@@ -1,6 +1,12 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix {
+  display: block;
+  content: "";
+  clear: both;
+}
+
 .q2-container {
   width: 900px;
   padding: 20px;
@@ -8,18 +14,14 @@
   background-color: #eff3f4;
 }
 
-.q2-content img {
-  margin-bottom: 10px;
-}
-
 .image-left {
   float: left;
-  margin-right: 20px;
+  margin: 0 20px 10px 0;
 }
 
 .image-right {
   float: right;
-  margin-left: 20px;
+  margin: 0 0 10px 20px;
 }
 
 .q2-text {
@@ -28,4 +30,7 @@
   font-size: 18px;
   line-height: 22px;
 }
+
+/* marginは共通化しないで個別に指定する */
+
 /* 回答はここに書いてね */

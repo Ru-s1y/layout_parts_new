@@ -88,7 +88,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
+  /* -webkit-transform: translate(-50%, -50%); */
   transform: translate(-50%, -50%);
   /* marginではなく％で指定 */
   /* -webkit-はベンダープレフィックス（接頭辞）と呼ばれるブラウザ独自の拡張機能を示す識別子 */

@@ -17,7 +17,7 @@
   margin-left: 50px;
 }
 
-.float-content:first-of-type {
+.float-content:first-child {
   margin-left: 0;
 }
 
@@ -32,7 +32,7 @@
   padding-left: 50px;
 }
 
-.table-box:first-of-type {
+.table-box:first-child {
   padding-left: 0;
 }
 
@@ -57,7 +57,7 @@
   margin-left: 50px;
 }
 
-.inline-box:first-of-type {
+.inline-box:first-child {
   margin-left: 0;
 } 
 
