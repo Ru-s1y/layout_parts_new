@@ -1,5 +1,54 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.balloon {
+  position: relative;
+  margin: 0 auto;
+  width: 500px;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  border-radius: 30px;
+  border: solid 5px #222;
+}
+
+/* balloon要素の前に描画  枠線の三角形*/
+
+.balloon:before, .balloon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 0;
+  bottom: 0;
+  border: 20px solid transparent;
+  /* background-color: red; */
+}
+
+.balloon:before {
+  /* border5px + (border20px * 2) */
+  bottom: -45px;
+  /* radius 30px */
+  left: 30px;
+  /* 上のボーダーの色, 要素の幅と高さがないので逆三角になる */
+  border-top-color: #222;
+}
+
+.balloon:after {
+  bottom: -38px;
+  left: 30px;
+  border-top-color: white;
+}
+
+/* 三角試験場 */
+/* .bubble-arrow {
+  width: 0;
+  height: 0;
+  border: solid 15px black;
+  border-top-color: red;
+  border-right-color: blue;
+  border-left-color: yellow;
+  border-bottom-color: green;
+} */
 
 /* 回答はここに書いてね */
