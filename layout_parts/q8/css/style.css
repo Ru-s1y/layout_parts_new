@@ -19,7 +19,7 @@
 }
 
 .content:hover .image {
-  transition: .5s;
+  /* transition: .5s; */
   transform: scale(1.5);
 }
 

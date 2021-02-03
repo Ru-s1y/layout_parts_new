@@ -19,8 +19,8 @@
   position: absolute;
   width: 0;
   height: 0;
-  left: 0;
-  bottom: 0;
+  /* left: 0;
+  bottom: 0; */
   border: 20px solid transparent;
   /* background-color: red; */
 }
